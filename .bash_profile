@@ -13,6 +13,7 @@ done
 # Selective PATH elements based on platform
 case `uname -s` in
   Darwin|FreeBSD)
+    [[ -d /opt/local/bin ]] && PATH=/opt/local/bin:$PATH
     ;;
   SunOS)
     [[ -d /usr/sfw/bin ]] && PATH=$PATH:/usr/sfw/bin
