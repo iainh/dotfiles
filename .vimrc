@@ -16,6 +16,7 @@ set t_Co=256                    "Set terminal to 256 colors
 
 "-------- Syntax & coloring
 syntax on                       "Turns on syntax highlighting...SHOULD BE AFTER 't_Co' & 'term' declarations
+colorscheme bored
 
 " Some of this was taken from or added to from the 'vimrc_example.vim' file
 " shipped with OS X
