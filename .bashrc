@@ -51,7 +51,7 @@ bash_prompt() {
 
     RET_VALUE='$((( RET )) && printf ":\[\e[1;31m\]$RET\[\e[0m\]")'
 
-    PS1="${TITLEBAR}[${USERSTR}${HOSTCOLOUR}\h${RET_VALUE}${NONE}:${EMB}\w${EMK}${UC}${EMK}${NONE}]\$ "
+    PS1="${TITLEBAR}[${USERSTR}${HOSTCOLOUR}\h${RET_VALUE}${NONE}:${EMB}\W${EMK}${UC}${EMK}${NONE}]\$ "
     export PS4='+$BASH_SOURCE[$LINENO]: '
 }
 
